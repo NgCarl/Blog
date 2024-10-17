@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+    /* cette propriete permette que les largeurs prennent en compte
+    les bordures et les marge  */
+}
+body{
+    font-size: 16px;
+    color: rgba(0, 0, .87);
+    font-family: 'Times New Roman',sans-serif;
+    line-height: 1.8;
+    background: #fff;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background:rgb(232, 240, 240);
+    padding: 30px 30px;
+    z-index: 3;
+    
+ 
+}
+.header nav {
+    float: left;
+
+}
+.social{
+    float: right;
+}
+.header nav a {
+    color: #9f9f9f;
+    padding: 15px;
+    text-decoration: none;
+    font-weight: 500;
+}
+.header nav a:hover, .header nav a.active {
+    color: #1a1919;
+}
+
+.social img {
+    padding: 10px;
+    width: 50px;
+}
+.social a{
+    opacity: .4;
+}
+.social a:hover{
+    opacity: 1;
+}
+.baniere{
+    height: 500px;
+    background: no-repeat center center / cover url(./img/banniere.jpg);
+}
+.main{
+    height:100%;
+    width:60%;
+    background-color: rgb(243, 245, 245);
+    float: left;
+    position: relative;
+    box-shadow: 0 4px 30px rgba(0, 0, 0,.57);
+    z-index: 2;
+    margin: 50px auto;
+    
+}
+.asidebar{
+    position: relative;
+    height: 100%;
+    width: 40%;
+    background-color: #fff; 
+    float: right;
+    padding: 40px;
+    font-size: 17px;
+    z-index: 1;
+     margin: 50px auto; 
+    
+   
+}
+.asidetitle{
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    margin: 35px 0;
+}
+.asidetitle:first-child{
+   
+    margin-top: 0;
+}
+.asidebar a {
+    
+    text-decoration: none;
+    color: #8e8989;
+    
+}
+.asidebar a:hover {
+    text-decoration: underline;
+    color: #110f0f;
+}
+.asidebar ul{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    line-height: 2;
+}
+.asidebar hr {
+    border-color: #110f0f;
+}
+.main img{
+    position: absolute;
+    width: 200px;
+    left: 0;
+    top: 0;
+    height: auto;
+    margin-right: 25px;
+    margin-left: 10px;
+}
+.article{
+    position: relative;
+    margin: 50px 0;
+    padding-left: 230px;
+    min-height: 203px ;
+ 
+}
+.container{
+    max-width: 940px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+
+.footer{
+    height: 40px;
+    background: rgb(232, 240, 240);
+    clear: both;
+}
+.footer p{
+    text-align: center;
+}
+
